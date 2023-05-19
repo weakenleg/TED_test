@@ -1,0 +1,19 @@
+name: ted
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=10.2
+  - pip=22.2.2
+  - python=3.9
+  - pytorch=1.12.1
+  - tensorboard
+  - tensorflow=2.4.1
+  - termcolor=1.1.0
+  - torchvision=0.13.1
+  - pip:
+    - dm_control==1.0.7
+    - gym==0.21.0
+    - imageio==2.22.1
+    - imageio_ffmpeg==0.4.7
+    - kornia==0.6.7
